@@ -57,6 +57,7 @@ public interface Cryptography {
 
 	public static BigInteger power(BigInteger base, BigInteger exp, BigInteger modulo, String bin, int length)
 	{
+		
 		BigInteger potenza=base;
 		BigInteger b;
 		b=base;
